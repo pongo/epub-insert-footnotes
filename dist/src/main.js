@@ -19,16 +19,20 @@ async function main() {
             continue;
         const dest = path_1.default.join(workDir, `${pathResult.name}.footnotes.epub`);
         fs_1.default.copyFileSync(fullPath, dest);
-        const epub = new EpubEditor_1.EpubEditor(dest);
-        await epub.parse();
-        let count = 0;
-        for (const noteLink of epub.noteLinks.values()) {
-            epub.insertFootNote(noteLink);
-            count++;
-        }
-        await epub.save();
-        console.log(`[${count}] ${file}`);
+        const notesCount = await editFile(dest);
+        console.log(`[${notesCount}] ${file}`);
     }
+}
+async function editFile(dest) {
+    const epub = new EpubEditor_1.EpubEditor(dest);
+    await epub.parse();
+    let count = 0;
+    for (const noteLink of epub.noteLinks.values()) {
+        epub.insertFootNote(noteLink);
+        count++;
+    }
+    await epub.save();
+    return count;
 }
 main()
     .then(() => console.log('done'))
