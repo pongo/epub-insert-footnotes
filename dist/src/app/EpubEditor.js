@@ -4,6 +4,7 @@ const assert_1 = require("src/shared/utils/assert");
 const Chapters_1 = require("src/app/Chapters");
 const Zip_1 = require("src/shared/utils/Zip");
 const NoteLinks_1 = require("src/app/NoteLinks");
+const NextParagraph_1 = require("src/app/NextParagraph");
 class EpubEditor {
     constructor(path) {
         this.path = path;
@@ -33,53 +34,8 @@ class EpubEditor {
         if (note == null)
             return;
         this.modifiedFiles.add(noteLink.noteLinkFile);
-        insertAside(`<strong>${noteLink.text}</strong>. ${note}`);
-        function insertAside(text) {
-            const [$p, inside, insertMode] = selectNextParagraph(noteLink);
-            const tag = inside ? 'span' : undefined;
-            const code = aside(text, tag);
-            if (insertMode === 'append')
-                $p.append(code);
-            else if (insertMode === 'before')
-                $p.before(code);
-            else
-                $p.after(code);
-        }
-        function aside(text, tag = 'div') {
-            const style = `text-indent: 0; border-top: 0px solid #ccc; border-bottom: 0px solid #ccc; margin: 0.5em 0; padding: 0.5em; background-color: #EFEBE9; color: #000; display: block;`;
-            return `<${tag} class="zz07-footnote" style="${style}">${text}</${tag}>`;
-        }
+        NextParagraph_1.insertNoteToNextParagraph(noteLink, `<strong>${noteLink.text}</strong>. ${note}`);
     }
 }
 exports.EpubEditor = EpubEditor;
-function selectNextParagraph(noteLink) {
-    let inside = false;
-    let insertMode = 'after';
-    const $p = findP();
-    const $corrected = checkNextAsides();
-    return [$corrected, inside, insertMode];
-    function checkNextAsides() {
-        const $nextAsides = $p.nextAll('.zz07-footnote');
-        if ($nextAsides.length > 0) {
-            insertMode = 'after';
-            return $nextAsides.last();
-        }
-        return $p;
-    }
-    function findP() {
-        const $el = noteLink.$a.parents('p, li, h1, h2, h3, h4, h5, h6, h7, h8, table, figure');
-        if ($el.length === 0) {
-            throw Error(`$a parent not found: [${noteLink.href}](${noteLink.noteLinkFile})`);
-        }
-        if ($el.find('br').length >= 2) {
-            inside = true;
-            insertMode = 'before';
-            return $el.find('br').first();
-        }
-        if ($el[0].tagName.toLowerCase() === 'li') {
-            insertMode = 'append';
-        }
-        return $el;
-    }
-}
 //# sourceMappingURL=EpubEditor.js.map
