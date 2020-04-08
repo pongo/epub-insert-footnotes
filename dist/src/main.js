@@ -7,6 +7,7 @@ require('module-alias')({ base: process.cwd() });
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 const EpubEditor_1 = require("src/app/EpubEditor");
+const perf_hooks_1 = require("perf_hooks");
 const workDir = 'C:\\Temp\\';
 async function main() {
     const files = fs_1.default.readdirSync(workDir);
@@ -19,8 +20,9 @@ async function main() {
             continue;
         const dest = path_1.default.join(workDir, `${pathResult.name}.footnotes.epub`);
         fs_1.default.copyFileSync(fullPath, dest);
+        const start = perf_hooks_1.performance.now();
         const notesCount = await editFile(dest);
-        console.log(`[${notesCount}] ${file}`);
+        console.log(`[${notesCount} notes, ${perfDiff(start)} ms] ${file}`);
     }
 }
 async function editFile(dest) {
@@ -33,6 +35,10 @@ async function editFile(dest) {
     }
     await epub.save();
     return count;
+}
+function perfDiff(start) {
+    const end = perf_hooks_1.performance.now();
+    return Math.round(end - start);
 }
 main()
     .then(() => console.log('done'))

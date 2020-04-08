@@ -4,6 +4,7 @@ require('module-alias')({ base: process.cwd() }); // tslint:disable-line
 import fs from 'fs';
 import path from 'path';
 import { EpubEditor } from 'src/app/EpubEditor';
+import { performance } from 'perf_hooks';
 
 const workDir = 'C:\\Temp\\';
 
@@ -19,8 +20,9 @@ async function main() {
     const dest = path.join(workDir, `${pathResult.name}.footnotes.epub`);
     fs.copyFileSync(fullPath, dest);
 
+    const start = performance.now();
     const notesCount = await editFile(dest);
-    console.log(`[${notesCount}] ${file}`);
+    console.log(`[${notesCount} notes, ${perfDiff(start)} ms] ${file}`);
   }
 }
 
@@ -36,6 +38,11 @@ async function editFile(dest: string): Promise<number> {
 
   await epub.save();
   return count;
+}
+
+function perfDiff(start: number): number {
+  const end = performance.now();
+  return Math.round(end - start);
 }
 
 main()
