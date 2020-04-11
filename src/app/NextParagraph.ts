@@ -21,10 +21,14 @@ class NextParagraph {
   }
 
   private checkNextAsides($p: Cheerio): Cheerio {
-    const $nextAsides = $p.nextAll('.zz07-footnote');
-    if ($nextAsides.length > 0) {
-      this.insertMode = 'after';
-      return $nextAsides.last();
+    // .nextAll собирает все элементы, а затем делает фильтр по селектору. это медленно.
+    // для ускорения мы сперва делаем .next — и если там что-то есть, то уже делаем полный .nextAll
+    if ($p.next('.zz07-footnote').length > 0) {
+      const $nextAsides = $p.nextAll('.zz07-footnote');
+      if ($nextAsides.length > 0) {
+        this.insertMode = 'after';
+        return $nextAsides.last();
+      }
     }
     return $p;
   }

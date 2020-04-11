@@ -21,10 +21,12 @@ class NextParagraph {
         return this.checkNextAsides(this.findP());
     }
     checkNextAsides($p) {
-        const $nextAsides = $p.nextAll('.zz07-footnote');
-        if ($nextAsides.length > 0) {
-            this.insertMode = 'after';
-            return $nextAsides.last();
+        if ($p.next('.zz07-footnote').length > 0) {
+            const $nextAsides = $p.nextAll('.zz07-footnote');
+            if ($nextAsides.length > 0) {
+                this.insertMode = 'after';
+                return $nextAsides.last();
+            }
         }
         return $p;
     }
