@@ -1,3 +1,4 @@
+import { describe, it, expect, beforeAll } from 'vitest';
 import { Zip } from 'src/shared/utils/Zip.js';
 import { Chapters } from 'src/app/Chapters.js';
 import { assert } from 'src/shared/utils/assert.js';

@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 import { Chapter } from 'src/app/Chapter.js';
 import type { ChapterFilePath } from 'src/app/types.js';
 

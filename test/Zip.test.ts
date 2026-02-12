@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 import fs from 'fs';
 import { Zip } from 'src/shared/utils/Zip.js';
 import { fileURLToPath } from 'url';

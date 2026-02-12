@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 import $ from 'cheerio';
 import { isLooksLikeNote, NoteLink, parseNoteNumber } from 'src/app/NoteLink.js';
 import type { ChapterFileName, ChapterFilePath } from 'src/app/types.js';
