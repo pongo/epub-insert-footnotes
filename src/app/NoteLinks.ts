@@ -1,5 +1,5 @@
-import { NoteLink } from 'src/app/NoteLink.js';
-import { Chapters } from 'src/app/Chapters.js';
+import { NoteLink } from '#src/app/NoteLink.js';
+import { Chapters } from '#src/app/Chapters.js';
 import $ from 'cheerio';
 import escapeStringRegexp from 'escape-string-regexp';
 import escape from 'escape-html';
@@ -8,7 +8,11 @@ export class NoteLinks {
   private readonly noteLinksStore: Map<string, NoteLink> = new Map();
   private collected = false;
 
-  constructor(private readonly chapters: Chapters) {}
+  private readonly chapters: Chapters;
+
+  constructor(chapters: Chapters) {
+    this.chapters = chapters;
+  }
 
   values() {
     if (!this.collected) {

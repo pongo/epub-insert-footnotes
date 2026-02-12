@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { EpubEditor } from 'src/app/EpubEditor.js';
+import { EpubEditor } from '#src/app/EpubEditor.js';
 import { performance } from 'perf_hooks';
 
 const workDir = 'C:\\temp\\epubs\\';

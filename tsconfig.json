@@ -7,8 +7,8 @@
     "rootDirs": ["src", "test"],
     "baseUrl": ".",
     "paths": {
-      "src/*": ["src/*"],
-      "test/*": ["test/*"]
+      "#src/*": ["src/*"],
+      "#test/*": ["test/*"]
     },
 
     "module": "NodeNext",

@@ -1,10 +1,10 @@
-import { NoteLink } from 'src/app/NoteLink.js';
-import { assert } from 'src/shared/utils/assert.js';
-import { Chapters } from 'src/app/Chapters.js';
-import type { ChapterFilePath } from 'src/app/types.js';
-import { Zip } from 'src/shared/utils/Zip.js';
-import { NoteLinks } from 'src/app/NoteLinks.js';
-import { insertNoteToNextParagraph } from 'src/app/NextParagraph.js';
+import { NoteLink } from '#src/app/NoteLink.js';
+import { assert } from '#src/shared/utils/assert.js';
+import { Chapters } from '#src/app/Chapters.js';
+import type { ChapterFilePath } from '#src/app/types.js';
+import { Zip } from '#src/shared/utils/Zip.js';
+import { NoteLinks } from '#src/app/NoteLinks.js';
+import { insertNoteToNextParagraph } from '#src/app/NextParagraph.js';
 // import { performance } from 'perf_hooks';
 
 export class EpubEditor {
@@ -13,8 +13,11 @@ export class EpubEditor {
 
   private readonly modifiedFiles: Set<ChapterFilePath> = new Set();
   private zip?: Zip;
+  private readonly path: string;
 
-  constructor(private readonly path: string) {}
+  constructor(path: string) {
+    this.path = path;
+  }
 
   async parse() {
     assert(this.zip == null, 'parse() should be called only once');

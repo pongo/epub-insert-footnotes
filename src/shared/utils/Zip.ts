@@ -1,11 +1,14 @@
 import AdmZip from 'adm-zip';
-import type { ChapterFilePath } from 'src/app/types.js';
+import type { ChapterFilePath } from '#src/app/types.js';
 
 class File {
-  constructor(
-    private readonly zip: AdmZip,
-    private readonly file: AdmZip.IZipEntry,
-  ) {}
+  private readonly zip: AdmZip;
+  private readonly file: AdmZip.IZipEntry;
+
+  constructor(zip: AdmZip, file: AdmZip.IZipEntry) {
+    this.zip = zip;
+    this.file = file;
+  }
 
   get path(): ChapterFilePath {
     return this.file.entryName as ChapterFilePath;
@@ -17,9 +20,11 @@ class File {
 }
 
 export class Zip {
+  readonly path: string;
   private readonly zip: AdmZip;
 
-  constructor(readonly path: string) {
+  constructor(path: string) {
+    this.path = path;
     this.zip = new AdmZip(this.path, { noSort: true });
   }
 

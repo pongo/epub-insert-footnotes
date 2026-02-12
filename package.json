@@ -3,10 +3,15 @@
   "version": "1.2.0",
   "description": "",
   "type": "module",
-  "main": "dist/src/main.js",
+  "main": "src/main.ts",
+  "imports": {
+    "#src/*.js": "./src/*.ts",
+    "#test/*.js": "./test/*.ts",
+    "#src/*": "./src/*.ts",
+    "#test/*": "./test/*.ts"
+  },
   "scripts": {
-    "start": "node dist/src/main.js",
-    "build": "rimraf dist/* && tsc --newLine lf",
+    "start": "node --experimental-strip-types src/main.ts",
     "tscheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -20,8 +25,7 @@
     "adm-zip": "^0.5.16",
     "cheerio": "^0.22.0",
     "escape-html": "^1.0.3",
-    "escape-string-regexp": "^2.0.0",
-    "module-alias": "^2.2.2"
+    "escape-string-regexp": "^2.0.0"
   },
   "devDependencies": {
     "@types/adm-zip": "^0.5.7",
@@ -29,10 +33,7 @@
     "@types/escape-html": "^1.0.4",
     "@types/node": "^20.17.17",
     "@vitest/coverage-v8": "^4.0.18",
-    "open-cli": "^5.0.0",
     "prettier": "^3.4.2",
-    "rimraf": "^3.0.2",
-    "ts-node": "^10.9.2",
     "typescript": "^5.7.3",
     "vitest": "^4.0.18"
   },
@@ -40,21 +41,6 @@
     "singleQuote": true,
     "trailingComma": "all",
     "endOfLine": "lf",
-    "printWidth": 120,
-    "overrides": [
-      {
-        "files": [
-          ".eslintrc.js"
-        ],
-        "options": {
-          "singleQuote": false,
-          "quoteProps": "consistent"
-        }
-      }
-    ]
-  },
-  "_moduleAliases": {
-    "src": "./dist/src",
-    "test": "./dist/test"
+    "printWidth": 120
   }
 }

@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { EpubEditor } from 'src/app/EpubEditor.js';
+import { EpubEditor } from '#src/app/EpubEditor.js';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 

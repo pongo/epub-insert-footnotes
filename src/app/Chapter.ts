@@ -1,4 +1,4 @@
-import type { ChapterFileName, ChapterFilePath } from 'src/app/types.js';
+import type { ChapterFileName, ChapterFilePath } from '#src/app/types.js';
 import path from 'path';
 import $ from 'cheerio';
 
@@ -7,10 +7,10 @@ export class Chapter {
   readonly $: CheerioStatic;
   readonly closeBr: boolean;
 
-  constructor(
-    readonly filePath: ChapterFilePath,
-    content: string,
-  ) {
+  readonly filePath: ChapterFilePath;
+
+  constructor(filePath: ChapterFilePath, content: string) {
+    this.filePath = filePath;
     this.fileName = path.basename(filePath) as ChapterFileName;
     this.$ = $.load(content, { decodeEntities: false, recognizeSelfClosing: true, xmlMode: true });
     this.closeBr = includesClosedBrs(content);

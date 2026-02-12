@@ -1,6 +1,6 @@
-import { Chapter } from 'src/app/Chapter.js';
-import type { ChapterFileName, ChapterFilePath } from 'src/app/types.js';
-import { Zip } from 'src/shared/utils/Zip.js';
+import { Chapter } from '#src/app/Chapter.js';
+import type { ChapterFileName, ChapterFilePath } from '#src/app/types.js';
+import { Zip } from '#src/shared/utils/Zip.js';
 
 export class Chapters {
   readonly chaptersByFileName: Map<ChapterFileName, Chapter> = new Map();
