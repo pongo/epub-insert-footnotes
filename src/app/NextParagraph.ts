@@ -11,6 +11,7 @@ class NextParagraph {
     const $p = this.selectNextParagraph();
     const tag = this.inside ? 'span' : undefined;
     const code = aside(text, tag);
+    // TODO: переделать на switch, добавив default и 'after'
     if (this.insertMode === 'append') $p.append(code);
     else if (this.insertMode === 'before') $p.before(code);
     else $p.after(code);
@@ -60,4 +61,5 @@ function aside(text: string, tag = 'div') {
 
 export function insertNoteToNextParagraph(noteLink: NoteLink, text: string): void {
   new NextParagraph(noteLink).insert(text);
+  // noteLink.$a.removeAttr('href');
 }

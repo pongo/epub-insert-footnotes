@@ -52,7 +52,11 @@ export class NoteLinks {
     return escape(removeReturns(removeNoteNumber(noteLink)));
 
     function removeNoteNumber(noteLink_: NoteLink) {
-      const reNoteRemove = new RegExp(`^(${noteLink_.number}|${escapeStringRegexp(noteLink_.text)})[\t\r\n. ]\\s*`, 'i');
+      if (noteLink_.number === undefined) return origText;
+      const reNoteRemove = new RegExp(
+        `^(${noteLink_.number}|${escapeStringRegexp(noteLink_.text)})[\t\r\n. ]\\s*`,
+        'i',
+      );
       return origText.replace(reNoteRemove, '');
     }
 

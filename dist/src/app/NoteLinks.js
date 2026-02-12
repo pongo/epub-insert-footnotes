@@ -53,6 +53,8 @@ class NoteLinks {
             return origText;
         return escape_html_1.default(removeReturns(removeNoteNumber(noteLink)));
         function removeNoteNumber(noteLink_) {
+            if (noteLink_.number === undefined)
+                return origText;
             const reNoteRemove = new RegExp(`^(${noteLink_.number}|${escape_string_regexp_1.default(noteLink_.text)})[\t\r\n. ]\\s*`, 'i');
             return origText.replace(reNoteRemove, '');
         }

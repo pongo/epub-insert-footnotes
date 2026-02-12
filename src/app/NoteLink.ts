@@ -1,13 +1,13 @@
 import { assert } from 'src/shared/utils/assert';
 import { ChapterFileName, ChapterFilePath } from 'src/app/types';
 
-const reNoteTitle = /^\s*[{[(]*\s*(\d+)\s*[}\])]*\s*$/i;
+const reNoteTitle = /^\s*[{[(]*\s*(\d+|\*)\s*[}\])]*\s*$/i;
 
 export class NoteLink {
   readonly href: string;
   readonly id?: string;
   readonly text: string;
-  readonly number: number;
+  readonly number?: number;
 
   constructor(readonly $a: Cheerio, readonly noteLinkFile: ChapterFilePath, noteLinkFileName: ChapterFileName) {
     assert(NoteLink.isNoteLink($a));
@@ -19,9 +19,7 @@ export class NoteLink {
     this.id = $a.attr('id');
     this.text = $a.text();
 
-    const noteNumber = parseNoteNumber(this.text);
-    assert(noteNumber != null);
-    this.number = noteNumber;
+    this.number = parseNoteNumber(this.text);
   }
 
   static isNoteLink($a: Cheerio) {

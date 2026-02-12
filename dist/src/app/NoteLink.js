@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const assert_1 = require("src/shared/utils/assert");
-const reNoteTitle = /^\s*[{[(]*\s*(\d+)\s*[}\])]*\s*$/i;
+const reNoteTitle = /^\s*[{[(]*\s*(\d+|\*)\s*[}\])]*\s*$/i;
 class NoteLink {
     constructor($a, noteLinkFile, noteLinkFileName) {
         this.$a = $a;
@@ -12,9 +12,7 @@ class NoteLink {
         this.href = prependFileName(href, noteLinkFileName);
         this.id = $a.attr('id');
         this.text = $a.text();
-        const noteNumber = parseNoteNumber(this.text);
-        assert_1.assert(noteNumber != null);
-        this.number = noteNumber;
+        this.number = parseNoteNumber(this.text);
     }
     static isNoteLink($a) {
         var _a;
