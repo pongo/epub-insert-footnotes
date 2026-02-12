@@ -31,10 +31,10 @@
     "@types/adm-zip": "^0.5.7",
     "@types/cheerio": "^0.22.16",
     "@types/escape-html": "^1.0.4",
-    "@types/node": "^20.17.17",
+    "@types/node": "^25.2.3",
     "@vitest/coverage-v8": "^4.0.18",
-    "prettier": "^3.4.2",
-    "typescript": "^5.7.3",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
     "vitest": "^4.0.18"
   },
   "prettier": {
