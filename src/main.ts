@@ -6,7 +6,7 @@ import path from 'path';
 import { EpubEditor } from 'src/app/EpubEditor';
 import { performance } from 'perf_hooks';
 
-const workDir = 'C:\\Temp\\safe\\g\\';
+const workDir = 'C:\\temp\\epubs\\';
 
 async function main() {
   const files = fs.readdirSync(workDir);
@@ -28,21 +28,21 @@ async function main() {
 
 async function editFile(dest: string): Promise<number> {
   const epub = new EpubEditor(dest);
-  const t2 = performance.now();
+  // const t2 = performance.now();
   await epub.parse();
-  console.log(`${perfDiff(t2)} ms | epub.parse()`);
+  // console.log(`${perfDiff(t2)} ms | epub.parse()`);
 
-  const t3 = performance.now();
+  // const t3 = performance.now();
   let count = 0;
   for (const noteLink of epub.noteLinks.values()) {
     epub.insertFootNote(noteLink);
     count++;
   }
-  console.log(`${perfDiff(t3)} ms | epub.insertFootNote all`);
+  // console.log(`${perfDiff(t3)} ms | epub.insertFootNote all`);
 
-  const t4 = performance.now();
+  // const t4 = performance.now();
   await epub.save();
-  console.log(`${perfDiff(t4)} ms | epub.save()`);
+  // console.log(`${perfDiff(t4)} ms | epub.save()`);
   return count;
 }
 

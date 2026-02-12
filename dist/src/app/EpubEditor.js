@@ -5,7 +5,6 @@ const Chapters_1 = require("src/app/Chapters");
 const Zip_1 = require("src/shared/utils/Zip");
 const NoteLinks_1 = require("src/app/NoteLinks");
 const NextParagraph_1 = require("src/app/NextParagraph");
-const perf_hooks_1 = require("perf_hooks");
 class EpubEditor {
     constructor(path) {
         this.path = path;
@@ -31,18 +30,12 @@ class EpubEditor {
         this.modifiedFiles.clear();
     }
     insertFootNote(noteLink) {
-        const t1 = perf_hooks_1.performance.now();
         const note = this.noteLinks.findNote(noteLink.href);
         if (note == null)
             return;
         this.modifiedFiles.add(noteLink.noteLinkFile);
-        const t2 = perf_hooks_1.performance.now();
         NextParagraph_1.insertNoteToNextParagraph(noteLink, `<strong>${noteLink.text}</strong>. ${note}`);
     }
 }
 exports.EpubEditor = EpubEditor;
-function perfDiff(start) {
-    const end = perf_hooks_1.performance.now();
-    return Math.round(end - start);
-}
 //# sourceMappingURL=EpubEditor.js.map

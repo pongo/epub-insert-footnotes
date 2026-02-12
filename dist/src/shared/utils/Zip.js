@@ -19,7 +19,7 @@ class File {
 class Zip {
     constructor(path) {
         this.path = path;
-        this.zip = new adm_zip_1.default(this.path);
+        this.zip = new adm_zip_1.default(this.path, { noSort: true });
     }
     get files() {
         return this.zip.getEntries().map(x => new File(this.zip, x));

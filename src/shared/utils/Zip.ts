@@ -17,7 +17,7 @@ export class Zip {
   private readonly zip: AdmZip;
 
   constructor(readonly path: string) {
-    this.zip = new AdmZip(this.path);
+    this.zip = new AdmZip(this.path, { noSort: true });
   }
 
   get files(): File[] {

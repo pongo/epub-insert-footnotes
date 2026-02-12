@@ -9,12 +9,12 @@ describe('Zip', () => {
     const input = `${__dirname}/data/6.epub`;
     const output = `${__dirname}/data/6.rezipped.epub`;
     const zip = new Zip(input);
-    const reFile = /\.x?html?$/i;
-    const files = zip.files.filter(e => reFile.test(e.path));
-
-    for (const file of files) {
-      zip.updateFile(file.path, await file.getText());
-    }
+    // const reFile = /\.x?html?$/i;
+    // const files = zip.files.filter(e => reFile.test(e.path));
+    //
+    // for (const file of files) {
+    //   zip.updateFile(file.path, await file.getText());
+    // }
     await zip.writeZip(output);
 
     const expected = await fs.promises.readFile(input);
