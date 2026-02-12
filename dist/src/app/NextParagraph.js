@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.insertNoteToNextParagraph = insertNoteToNextParagraph;
+import { NoteLink } from 'src/app/NoteLink.js';
 class NextParagraph {
     noteLink;
     inside = false;
@@ -52,7 +50,7 @@ function aside(text, tag = 'div') {
     const style = `text-indent: 0; border-top: 0px solid #ccc; border-bottom: 0px solid #ccc; margin: 0.5em 0; padding: 0.5em; background-color: #EFEBE9; color: #000; display: block;`;
     return `<${tag} class="zz07-footnote" style="${style}">${text}</${tag}>`;
 }
-function insertNoteToNextParagraph(noteLink, text) {
+export function insertNoteToNextParagraph(noteLink, text) {
     new NextParagraph(noteLink).insert(text);
 }
 //# sourceMappingURL=NextParagraph.js.map

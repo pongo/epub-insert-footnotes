@@ -1,12 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.NoteLink = void 0;
-exports.isLooksLikeNote = isLooksLikeNote;
-exports.isItUrl = isItUrl;
-exports.parseNoteNumber = parseNoteNumber;
-const assert_1 = require("src/shared/utils/assert");
+import { assert } from 'src/shared/utils/assert.js';
 const reNoteTitle = /^\s*[{[(]*\s*(\d+|\*)\s*[}\])]*\s*$/i;
-class NoteLink {
+export class NoteLink {
     $a;
     noteLinkFile;
     href;
@@ -16,9 +10,9 @@ class NoteLink {
     constructor($a, noteLinkFile, noteLinkFileName) {
         this.$a = $a;
         this.noteLinkFile = noteLinkFile;
-        (0, assert_1.assert)(NoteLink.isNoteLink($a));
+        assert(NoteLink.isNoteLink($a));
         const href = $a.attr('href');
-        (0, assert_1.assert)(href != null);
+        assert(href != null);
         this.href = prependFileName(href, noteLinkFileName);
         this.id = $a.attr('id');
         this.text = $a.text();
@@ -37,19 +31,18 @@ class NoteLink {
         return true;
     }
 }
-exports.NoteLink = NoteLink;
 function prependFileName(href, fileName) {
     if (href.startsWith('#'))
         return `${fileName}${href}`;
     return href;
 }
-function isLooksLikeNote(text) {
+export function isLooksLikeNote(text) {
     return reNoteTitle.test(text);
 }
-function isItUrl(text) {
+export function isItUrl(text) {
     return /:\/\//i.test(text);
 }
-function parseNoteNumber(text) {
+export function parseNoteNumber(text) {
     const found = reNoteTitle.exec(text);
     if (found == null)
         return undefined;

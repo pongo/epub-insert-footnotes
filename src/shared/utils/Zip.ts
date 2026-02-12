@@ -1,5 +1,5 @@
 import AdmZip from 'adm-zip';
-import { ChapterFilePath } from 'src/app/types';
+import type { ChapterFilePath } from 'src/app/types.js';
 
 class File {
   constructor(

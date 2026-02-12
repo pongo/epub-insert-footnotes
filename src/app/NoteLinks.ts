@@ -1,5 +1,5 @@
-import { NoteLink } from 'src/app/NoteLink';
-import { Chapters } from 'src/app/Chapters';
+import { NoteLink } from 'src/app/NoteLink.js';
+import { Chapters } from 'src/app/Chapters.js';
 import $ from 'cheerio';
 import escapeStringRegexp from 'escape-string-regexp';
 import escape from 'escape-html';

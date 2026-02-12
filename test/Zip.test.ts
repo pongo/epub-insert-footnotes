@@ -1,5 +1,10 @@
 import fs from 'fs';
-import { Zip } from 'src/shared/utils/Zip';
+import { Zip } from 'src/shared/utils/Zip.js';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 describe('Zip', () => {
   it('should save files in same order', async () => {

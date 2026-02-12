@@ -1,10 +1,4 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Zip = void 0;
-const adm_zip_1 = __importDefault(require("adm-zip"));
+import AdmZip from 'adm-zip';
 class File {
     zip;
     file;
@@ -19,12 +13,12 @@ class File {
         return new Promise((resolve) => this.zip.readAsTextAsync(this.file, resolve, 'utf-8'));
     }
 }
-class Zip {
+export class Zip {
     path;
     zip;
     constructor(path) {
         this.path = path;
-        this.zip = new adm_zip_1.default(this.path, { noSort: true });
+        this.zip = new AdmZip(this.path, { noSort: true });
     }
     get files() {
         return this.zip.getEntries().map((x) => new File(this.zip, x));
@@ -41,5 +35,4 @@ class Zip {
         }));
     }
 }
-exports.Zip = Zip;
 //# sourceMappingURL=Zip.js.map

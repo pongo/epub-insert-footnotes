@@ -1,9 +1,6 @@
-/* eslint-disable import/first,@typescript-eslint/no-var-requires */
-require('module-alias')({ base: process.cwd() }); // tslint:disable-line
-
 import fs from 'fs';
 import path from 'path';
-import { EpubEditor } from 'src/app/EpubEditor';
+import { EpubEditor } from 'src/app/EpubEditor.js';
 import { performance } from 'perf_hooks';
 
 const workDir = 'C:\\temp\\epubs\\';

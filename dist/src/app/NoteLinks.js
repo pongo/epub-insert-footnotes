@@ -1,14 +1,9 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.NoteLinks = void 0;
-const NoteLink_1 = require("src/app/NoteLink");
-const cheerio_1 = __importDefault(require("cheerio"));
-const escape_string_regexp_1 = __importDefault(require("escape-string-regexp"));
-const escape_html_1 = __importDefault(require("escape-html"));
-class NoteLinks {
+import { NoteLink } from 'src/app/NoteLink.js';
+import { Chapters } from 'src/app/Chapters.js';
+import $ from 'cheerio';
+import escapeStringRegexp from 'escape-string-regexp';
+import escape from 'escape-html';
+export class NoteLinks {
     chapters;
     noteLinksStore = new Map();
     collected = false;
@@ -35,13 +30,13 @@ class NoteLinks {
         this.collected = true;
         for (const chapter of this.chapters.values()) {
             chapter.$('a').each((_i, a) => {
-                const $a = (0, cheerio_1.default)(a);
+                const $a = $(a);
                 const href = $a.attr('href');
                 if (href == null || href === '')
                     return;
-                if (!NoteLink_1.NoteLink.isNoteLink($a))
+                if (!NoteLink.isNoteLink($a))
                     return;
-                const noteLink = new NoteLink_1.NoteLink($a, chapter.filePath, chapter.fileName);
+                const noteLink = new NoteLink($a, chapter.filePath, chapter.fileName);
                 if (this.isBacklink(noteLink.href))
                     return;
                 this.noteLinksStore.set(noteLink.href, noteLink);
@@ -53,11 +48,11 @@ class NoteLinks {
         const noteLink = this.noteLinksStore.get(href);
         if (noteLink == null)
             return origText;
-        return (0, escape_html_1.default)(removeReturns(removeNoteNumber(noteLink)));
+        return escape(removeReturns(removeNoteNumber(noteLink)));
         function removeNoteNumber(noteLink_) {
             if (noteLink_.number === undefined)
                 return origText;
-            const reNoteRemove = new RegExp(`^(${noteLink_.number}|${(0, escape_string_regexp_1.default)(noteLink_.text)})[\t\r\n. ]\\s*`, 'i');
+            const reNoteRemove = new RegExp(`^(${noteLink_.number}|${escapeStringRegexp(noteLink_.text)})[\t\r\n. ]\\s*`, 'i');
             return origText.replace(reNoteRemove, '');
         }
         function removeReturns(text) {
@@ -83,5 +78,4 @@ class NoteLinks {
         return this.findNoteEl(href) == null;
     }
 }
-exports.NoteLinks = NoteLinks;
 //# sourceMappingURL=NoteLinks.js.map

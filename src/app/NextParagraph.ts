@@ -1,4 +1,4 @@
-import { NoteLink } from 'src/app/NoteLink';
+import { NoteLink } from 'src/app/NoteLink.js';
 
 type InsertMode = 'append' | 'after' | 'before';
 

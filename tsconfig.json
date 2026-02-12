@@ -4,22 +4,15 @@
     "isolatedModules": false,
 
     "outDir": "dist",
-    "rootDirs": [
-      "src",
-      "test"
-    ],
+    "rootDirs": ["src", "test"],
     "baseUrl": ".",
     "paths": {
-      "src/*": [
-        "src/*"
-      ],
-      "test/*": [
-        "test/*"
-      ]
+      "src/*": ["src/*"],
+      "test/*": ["test/*"]
     },
 
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "sourceMap": true,
     "removeComments": true,
     "newLine": "LF",
@@ -35,13 +28,9 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
-    "useUnknownInCatchVariables": false
+    "useUnknownInCatchVariables": false,
+    "verbatimModuleSyntax": true
   },
-  "exclude": [
-    "node_modules"
-  ],
-  "include": [
-    "src/**/*.ts",
-    "test/**/*.ts"
-  ]
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts", "test/**/*.ts"]
 }

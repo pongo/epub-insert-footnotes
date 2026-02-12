@@ -2,6 +2,7 @@
   "name": "epub-insert-footnotes",
   "version": "1.2.0",
   "description": "",
+  "type": "module",
   "main": "dist/src/main.js",
   "scripts": {
     "start": "node dist/src/main.js",
@@ -70,16 +71,22 @@
       "<rootDir>/src/"
     ],
     "moduleNameMapper": {
+      "^src/(.*)\\.js$": "<rootDir>/src/$1",
+      "^test/(.*)\\.js$": "<rootDir>/test/$1",
       "^src/(.*)$": "<rootDir>/src/$1",
       "^test/(.*)$": "<rootDir>/test/$1"
     },
-    "preset": "ts-jest",
+    "preset": "ts-jest/presets/default-esm",
     "testEnvironment": "node",
-    "globals": {
-      "ts-jest": {
-        "diagnostics": false,
-        "isolatedModules": true
-      }
+    "transform": {
+      "^.+\\.tsx?$": [
+        "ts-jest",
+        {
+          "useESM": true,
+          "diagnostics": false,
+          "isolatedModules": true
+        }
+      ]
     }
   },
   "jest--del": {

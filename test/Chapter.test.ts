@@ -1,5 +1,5 @@
-import { Chapter } from 'src/app/Chapter';
-import { ChapterFilePath } from 'src/app/types';
+import { Chapter } from 'src/app/Chapter.js';
+import type { ChapterFilePath } from 'src/app/types.js';
 
 const c = (html: string) => new Chapter('1.html' as ChapterFilePath, `<!DOCTYPE html><p>${html}</p>`);
 

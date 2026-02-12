@@ -1,10 +1,10 @@
-import { NoteLink } from 'src/app/NoteLink';
-import { assert } from 'src/shared/utils/assert';
-import { Chapters } from 'src/app/Chapters';
-import { ChapterFilePath } from 'src/app/types';
-import { Zip } from 'src/shared/utils/Zip';
-import { NoteLinks } from 'src/app/NoteLinks';
-import { insertNoteToNextParagraph } from 'src/app/NextParagraph';
+import { NoteLink } from 'src/app/NoteLink.js';
+import { assert } from 'src/shared/utils/assert.js';
+import { Chapters } from 'src/app/Chapters.js';
+import type { ChapterFilePath } from 'src/app/types.js';
+import { Zip } from 'src/shared/utils/Zip.js';
+import { NoteLinks } from 'src/app/NoteLinks.js';
+import { insertNoteToNextParagraph } from 'src/app/NextParagraph.js';
 // import { performance } from 'perf_hooks';
 
 export class EpubEditor {
