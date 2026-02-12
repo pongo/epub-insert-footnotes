@@ -32,3 +32,7 @@ To process a file, run:
 ```bash
 node src/main.ts path/to/your/book.epub
 ```
+
+### Output
+
+The tool will create a new file named **`path/to/your/book.footnotes.epub`**
