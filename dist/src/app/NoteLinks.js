@@ -3,15 +3,17 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.NoteLinks = void 0;
 const NoteLink_1 = require("src/app/NoteLink");
 const cheerio_1 = __importDefault(require("cheerio"));
 const escape_string_regexp_1 = __importDefault(require("escape-string-regexp"));
 const escape_html_1 = __importDefault(require("escape-html"));
 class NoteLinks {
+    chapters;
+    noteLinksStore = new Map();
+    collected = false;
     constructor(chapters) {
         this.chapters = chapters;
-        this.noteLinksStore = new Map();
-        this.collected = false;
     }
     values() {
         if (!this.collected) {
@@ -33,7 +35,7 @@ class NoteLinks {
         this.collected = true;
         for (const chapter of this.chapters.values()) {
             chapter.$('a').each((_i, a) => {
-                const $a = cheerio_1.default(a);
+                const $a = (0, cheerio_1.default)(a);
                 const href = $a.attr('href');
                 if (href == null || href === '')
                     return;
@@ -51,11 +53,11 @@ class NoteLinks {
         const noteLink = this.noteLinksStore.get(href);
         if (noteLink == null)
             return origText;
-        return escape_html_1.default(removeReturns(removeNoteNumber(noteLink)));
+        return (0, escape_html_1.default)(removeReturns(removeNoteNumber(noteLink)));
         function removeNoteNumber(noteLink_) {
             if (noteLink_.number === undefined)
                 return origText;
-            const reNoteRemove = new RegExp(`^(${noteLink_.number}|${escape_string_regexp_1.default(noteLink_.text)})[\t\r\n. ]\\s*`, 'i');
+            const reNoteRemove = new RegExp(`^(${noteLink_.number}|${(0, escape_string_regexp_1.default)(noteLink_.text)})[\t\r\n. ]\\s*`, 'i');
             return origText.replace(reNoteRemove, '');
         }
         function removeReturns(text) {

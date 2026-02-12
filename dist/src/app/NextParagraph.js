@@ -1,10 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.insertNoteToNextParagraph = insertNoteToNextParagraph;
 class NextParagraph {
+    noteLink;
+    inside = false;
+    insertMode = 'after';
     constructor(noteLink) {
         this.noteLink = noteLink;
-        this.inside = false;
-        this.insertMode = 'after';
     }
     insert(text) {
         const $p = this.selectNextParagraph();
@@ -53,5 +55,4 @@ function aside(text, tag = 'div') {
 function insertNoteToNextParagraph(noteLink, text) {
     new NextParagraph(noteLink).insert(text);
 }
-exports.insertNoteToNextParagraph = insertNoteToNextParagraph;
 //# sourceMappingURL=NextParagraph.js.map

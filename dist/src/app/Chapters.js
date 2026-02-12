@@ -1,11 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Chapters = void 0;
 const Chapter_1 = require("src/app/Chapter");
 class Chapters {
-    constructor() {
-        this.chaptersByFileName = new Map();
-        this.chaptersByFilePath = new Map();
-    }
+    chaptersByFileName = new Map();
+    chaptersByFilePath = new Map();
     async parseFromZip(zip) {
         const reFile = /\.x?html?$/i;
         const chaptersFiles = zip.files.filter(e => reFile.test(e.path));
