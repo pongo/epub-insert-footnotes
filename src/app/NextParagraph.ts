@@ -1,11 +1,15 @@
-import { NoteLink } from 'src/app/NoteLink';
+import { NoteLink } from '#src/app/NoteLink.js';
 
 type InsertMode = 'append' | 'after' | 'before';
 
 class NextParagraph {
   private inside = false;
   private insertMode: InsertMode = 'after';
-  constructor(private readonly noteLink: NoteLink) {}
+  private readonly noteLink: NoteLink;
+
+  constructor(noteLink: NoteLink) {
+    this.noteLink = noteLink;
+  }
 
   insert(text: string): void {
     const $p = this.selectNextParagraph();

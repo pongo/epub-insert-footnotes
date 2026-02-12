@@ -1,5 +1,10 @@
-/* tslint:disable:no-irregular-whitespace */
-import { EpubEditor } from 'src/app/EpubEditor';
+import { describe, it, expect, beforeAll } from 'vitest';
+import { EpubEditor } from '#src/app/EpubEditor.js';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 describe('NoteLinks', () => {
   describe('/2/', () => {

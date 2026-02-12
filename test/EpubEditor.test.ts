@@ -1,5 +1,10 @@
-/* eslint-disable @typescript-eslint/ban-ts-ignore */
-import { EpubEditor } from 'src/app/EpubEditor';
+import { describe, it, expect, beforeEach } from 'vitest';
+import { EpubEditor } from '#src/app/EpubEditor.js';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 describe('EpubEditor', () => {
   describe('insertFootNote()', () => {
@@ -34,7 +39,9 @@ describe('EpubEditor', () => {
         const actual = epub.chapters.getByFileName('ch1.xhtml')!.html();
 
         expect(actual).not.toBe(orig);
-        expect(actual).toMatch(/ааааааааааааа\.<\/p><div class="zz07-footnote" style=.+?><strong>\[1]<\/strong>\. «ааааа»/i);
+        expect(actual).toMatch(
+          /ааааааааааааа\.<\/p><div class="zz07-footnote" style=.+?><strong>\[1]<\/strong>\. «ааааа»/i,
+        );
         // @ts-ignore
         expect([...epub.modifiedFiles]).toStrictEqual(['OPS/ch1.xhtml']);
       });
@@ -54,7 +61,7 @@ describe('EpubEditor', () => {
   });
 
   describe('For all epub test files', () => {
-    describe.each([[1], [2], [3], [4], [5], [6]])(`/(%p)/`, testFileNum => {
+    describe.each([[1], [2], [3], [4], [5], [6]])(`/(%p)/`, (testFileNum) => {
       it('should insert notes without errors', async () => {
         const epub = new EpubEditor(`${__dirname}/data/${testFileNum}.epub`);
         await epub.parse();

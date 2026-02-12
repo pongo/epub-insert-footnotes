@@ -1,6 +1,6 @@
-import { Chapter } from 'src/app/Chapter';
-import { ChapterFileName, ChapterFilePath } from 'src/app/types';
-import { Zip } from 'src/shared/utils/Zip';
+import { Chapter } from '#src/app/Chapter.js';
+import type { ChapterFileName, ChapterFilePath } from '#src/app/types.js';
+import { Zip } from '#src/shared/utils/Zip.js';
 
 export class Chapters {
   readonly chaptersByFileName: Map<ChapterFileName, Chapter> = new Map();
@@ -8,7 +8,7 @@ export class Chapters {
 
   async parseFromZip(zip: Zip) {
     const reFile = /\.x?html?$/i;
-    const chaptersFiles = zip.files.filter(e => reFile.test(e.path));
+    const chaptersFiles = zip.files.filter((e) => reFile.test(e.path));
     for (const file of chaptersFiles) {
       const content = await file.getText();
       const chapter = new Chapter(file.path, content);

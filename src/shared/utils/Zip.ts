@@ -1,27 +1,35 @@
 import AdmZip from 'adm-zip';
-import { ChapterFilePath } from 'src/app/types';
+import type { ChapterFilePath } from '#src/app/types.js';
 
 class File {
-  constructor(private readonly zip: AdmZip, private readonly file: AdmZip.IZipEntry) {}
+  private readonly zip: AdmZip;
+  private readonly file: AdmZip.IZipEntry;
+
+  constructor(zip: AdmZip, file: AdmZip.IZipEntry) {
+    this.zip = zip;
+    this.file = file;
+  }
 
   get path(): ChapterFilePath {
     return this.file.entryName as ChapterFilePath;
   }
 
   async getText(): Promise<string> {
-    return new Promise(resolve => this.zip.readAsTextAsync(this.file, resolve, 'utf-8'));
+    return new Promise((resolve) => this.zip.readAsTextAsync(this.file, resolve, 'utf-8'));
   }
 }
 
 export class Zip {
+  readonly path: string;
   private readonly zip: AdmZip;
 
-  constructor(readonly path: string) {
-    this.zip = new AdmZip(this.path);
+  constructor(path: string) {
+    this.path = path;
+    this.zip = new AdmZip(this.path, { noSort: true });
   }
 
   get files(): File[] {
-    return this.zip.getEntries().map(x => new File(this.zip, x));
+    return this.zip.getEntries().map((x) => new File(this.zip, x));
   }
 
   updateFile(path: string, text: string) {
@@ -29,8 +37,8 @@ export class Zip {
   }
 
   async writeZip(dest?: string) {
-    return new Promise((resolve, reject) =>
-      this.zip.writeZip(dest, err => {
+    return new Promise<void>((resolve, reject) =>
+      this.zip.writeZip(dest, (err) => {
         if (err) reject(err);
         else resolve();
       }),

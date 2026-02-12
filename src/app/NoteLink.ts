@@ -1,5 +1,5 @@
-import { assert } from 'src/shared/utils/assert';
-import { ChapterFileName, ChapterFilePath } from 'src/app/types';
+import { assert } from '#src/shared/utils/assert.js';
+import type { ChapterFileName, ChapterFilePath } from '#src/app/types.js';
 
 const reNoteTitle = /^\s*[{[(]*\s*(\d+|\*)\s*[}\])]*\s*$/i;
 
@@ -9,7 +9,12 @@ export class NoteLink {
   readonly text: string;
   readonly number?: number;
 
-  constructor(readonly $a: Cheerio, readonly noteLinkFile: ChapterFilePath, noteLinkFileName: ChapterFileName) {
+  readonly $a: Cheerio;
+  readonly noteLinkFile: ChapterFilePath;
+
+  constructor($a: Cheerio, noteLinkFile: ChapterFilePath, noteLinkFileName: ChapterFileName) {
+    this.$a = $a;
+    this.noteLinkFile = noteLinkFile;
     assert(NoteLink.isNoteLink($a));
 
     const href = $a.attr('href');

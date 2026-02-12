@@ -1,124 +1,46 @@
 {
   "name": "epub-insert-footnotes",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "dist/src/main.js",
+  "type": "module",
+  "main": "src/main.ts",
+  "imports": {
+    "#src/*.js": "./src/*.ts",
+    "#test/*.js": "./test/*.ts",
+    "#src/*": "./src/*.ts",
+    "#test/*": "./test/*.ts"
+  },
   "scripts": {
-    "start": "node dist/src/main.js",
-    "build": "rimraf dist/* && tsc --newLine lf",
-    "eslint": "eslint ./src/**/*.ts ./test/**/*.ts",
-    "eslintfix": "eslint --fix ./src/**/*.ts ./test/**/*.ts",
+    "start": "node --experimental-strip-types src/main.ts",
     "tscheck": "tsc --noEmit",
-    "tslint": "tslint --force --project . -t codeframe",
-    "tslintfix": "tslint --force --project . --fix",
-    "test": "jest -i --silent",
-    "test:watch": "jest -i --watch --forceExit",
-    "cov": "jest -i --coverage --no-cache --silent && open-cli ./coverage/lcov-report/index.html",
-    "open_cov": "open-cli ./coverage/lcov-report/index.html",
-    "jest_update_snapshot": "jest --updateSnapshot"
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "cov": "vitest run --coverage",
+    "update_snapshot": "vitest run -u"
   },
   "keywords": [],
   "author": "pongo",
   "license": "MIT",
   "dependencies": {
-    "adm-zip": "github:pongo/adm-zip",
+    "adm-zip": "^0.5.16",
     "cheerio": "^0.22.0",
     "escape-html": "^1.0.3",
-    "escape-string-regexp": "^2.0.0",
-    "module-alias": "^2.2.2"
+    "escape-string-regexp": "^2.0.0"
   },
   "devDependencies": {
-    "@types/adm-zip": "^0.4.32",
+    "@types/adm-zip": "^0.5.7",
     "@types/cheerio": "^0.22.16",
-    "@types/escape-html": "0.0.20",
-    "@types/jest": "^25.1.2",
-    "@types/node": "^13.7.2",
-    "@typescript-eslint/eslint-plugin": "^2.20.0",
-    "@typescript-eslint/eslint-plugin-tslint": "^2.20.0",
-    "@typescript-eslint/parser": "^2.20.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-prettier": "^3.1.2",
-    "jest": "^25.1.0",
-    "open-cli": "^5.0.0",
-    "prettier": "^1.19.1",
-    "rimraf": "^3.0.2",
-    "ts-jest": "^25.2.1",
-    "ts-node": "^8.6.2",
-    "tslint": "^6.0.0",
-    "tslint-config-airbnb": "^5.11.2",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-consistent-codestyle": "^1.16.0",
-    "tslint-eslint-rules": "^5.4.0",
-    "tslint-microsoft-contrib": "^6.2.0",
-    "tslint-no-circular-imports": "^0.7.0",
-    "tslint-sonarts": "^1.9.0",
-    "typescript": "^3.7.5",
-    "typestrict": "^1.0.2"
+    "@types/escape-html": "^1.0.4",
+    "@types/node": "^25.2.3",
+    "@vitest/coverage-v8": "^4.0.18",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
   },
   "prettier": {
     "singleQuote": true,
     "trailingComma": "all",
     "endOfLine": "lf",
-    "printWidth": 120,
-    "overrides": [
-      {
-        "files": [
-          ".eslintrc.js"
-        ],
-        "options": {
-          "singleQuote": false,
-          "quoteProps": "consistent"
-        }
-      }
-    ]
-  },
-  "jest": {
-    "bail": true,
-    "collectCoverage": false,
-    "coverageReporters": [
-      "lcov"
-    ],
-    "collectCoverageFrom": [
-      "src/**/*.{ts,tsx}",
-      "!src/**/*.d.ts",
-      "!**/node_modules/**"
-    ],
-    "roots": [
-      "<rootDir>/test/",
-      "<rootDir>/src/"
-    ],
-    "moduleNameMapper": {
-      "^src/(.*)$": "<rootDir>/src/$1",
-      "^test/(.*)$": "<rootDir>/test/$1"
-    },
-    "preset": "ts-jest",
-    "testEnvironment": "node",
-    "globals": {
-      "ts-jest": {
-        "diagnostics": false,
-        "isolatedModules": true
-      }
-    }
-  },
-  "jest--del": {
-    "testRegex": "(/test/.*\\.test\\.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest"
-    },
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
-  },
-  "_moduleAliases": {
-    "src": "./dist/src",
-    "test": "./dist/test"
+    "printWidth": 120
   }
 }

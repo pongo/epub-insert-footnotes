@@ -1,6 +1,12 @@
-import { Zip } from 'src/shared/utils/Zip';
-import { Chapters } from 'src/app/Chapters';
-import { assert } from 'src/shared/utils/assert';
+import { describe, it, expect, beforeAll } from 'vitest';
+import { Zip } from '#src/shared/utils/Zip.js';
+import { Chapters } from '#src/app/Chapters.js';
+import { assert } from '#src/shared/utils/assert.js';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 describe('Chapters', () => {
   let chapters: Chapters;

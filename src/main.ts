@@ -1,48 +1,51 @@
-/* eslint-disable import/first,@typescript-eslint/no-var-requires */
-require('module-alias')({ base: process.cwd() }); // tslint:disable-line
-
 import fs from 'fs';
 import path from 'path';
-import { EpubEditor } from 'src/app/EpubEditor';
+import { EpubEditor } from '#src/app/EpubEditor.js';
 import { performance } from 'perf_hooks';
 
-const workDir = 'C:\\Temp\\safe\\g\\';
-
 async function main() {
-  const files = fs.readdirSync(workDir);
-  for (const file of files) {
-    const fullPath = path.join(workDir, file);
-    const pathResult = path.parse(file);
-
-    if (pathResult.ext !== '.epub') continue;
-    if (file.includes('.footnotes.epub')) continue;
-
-    const dest = path.join(workDir, `${pathResult.name}.footnotes.epub`);
-    fs.copyFileSync(fullPath, dest);
-
-    const start = performance.now();
-    const notesCount = await editFile(dest);
-    console.log(`[${notesCount} notes, ${perfDiff(start)} ms] ${file}`);
+  const filePath = process.argv[2];
+  if (!filePath) {
+    console.log('Usage: node --experimental-strip-types src/main.ts <path-to-epub>');
+    process.exit(1);
   }
+
+  if (!fs.existsSync(filePath)) {
+    console.error(`Error: File not found: ${filePath}`);
+    process.exit(1);
+  }
+
+  const pathResult = path.parse(filePath);
+  if (pathResult.ext !== '.epub') {
+    console.error(`Error: File must be an .epub file: ${filePath}`);
+    process.exit(1);
+  }
+
+  const dest = path.join(pathResult.dir, `${pathResult.name}.footnotes.epub`);
+  fs.copyFileSync(filePath, dest);
+
+  const start = performance.now();
+  const notesCount = await editFile(dest);
+  console.log(`[${notesCount} notes, ${perfDiff(start)} ms] ${path.basename(filePath)}`);
 }
 
 async function editFile(dest: string): Promise<number> {
   const epub = new EpubEditor(dest);
-  const t2 = performance.now();
+  // const t2 = performance.now();
   await epub.parse();
-  console.log(`${perfDiff(t2)} ms | epub.parse()`);
+  // console.log(`${perfDiff(t2)} ms | epub.parse()`);
 
-  const t3 = performance.now();
+  // const t3 = performance.now();
   let count = 0;
   for (const noteLink of epub.noteLinks.values()) {
     epub.insertFootNote(noteLink);
     count++;
   }
-  console.log(`${perfDiff(t3)} ms | epub.insertFootNote all`);
+  // console.log(`${perfDiff(t3)} ms | epub.insertFootNote all`);
 
-  const t4 = performance.now();
+  // const t4 = performance.now();
   await epub.save();
-  console.log(`${perfDiff(t4)} ms | epub.save()`);
+  // console.log(`${perfDiff(t4)} ms | epub.save()`);
   return count;
 }
 
