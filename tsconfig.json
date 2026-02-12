@@ -1,9 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
+    "target": "esnext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "isolatedModules": false,
+    "noEmit": true,
+    "rewriteRelativeImportExtensions": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
 
-    "outDir": "dist",
     "rootDirs": ["src", "test"],
     "baseUrl": ".",
     "paths": {
@@ -11,8 +16,6 @@
       "#test/*": ["test/*"]
     },
 
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
     "sourceMap": true,
     "removeComments": true,
     "newLine": "LF",
@@ -28,8 +31,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
-    "useUnknownInCatchVariables": false,
-    "verbatimModuleSyntax": true
+    "useUnknownInCatchVariables": false
   },
   "exclude": ["node_modules"],
   "include": ["src/**/*.ts", "test/**/*.ts"]
