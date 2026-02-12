@@ -5,6 +5,7 @@ import { ChapterFilePath } from 'src/app/types';
 import { Zip } from 'src/shared/utils/Zip';
 import { NoteLinks } from 'src/app/NoteLinks';
 import { insertNoteToNextParagraph } from 'src/app/NextParagraph';
+import { performance } from 'perf_hooks';
 
 export class EpubEditor {
   readonly chapters = new Chapters();
@@ -36,10 +37,20 @@ export class EpubEditor {
   }
 
   insertFootNote(noteLink: NoteLink) {
+    const t1 = performance.now();
     const note = this.noteLinks.findNote(noteLink.href);
+    // console.log(`${perfDiff(t1)} ms | findNote`);
     if (note == null) return;
 
     this.modifiedFiles.add(noteLink.noteLinkFile);
+
+    const t2 = performance.now();
     insertNoteToNextParagraph(noteLink, `<strong>${noteLink.text}</strong>. ${note}`);
+    // console.log(`${perfDiff(t2)} ms | insertNoteToNextParagraph`);
   }
+}
+
+function perfDiff(start: number): number {
+  const end = performance.now();
+  return Math.round(end - start);
 }

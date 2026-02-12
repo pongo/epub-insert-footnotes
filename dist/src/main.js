@@ -8,7 +8,7 @@ const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 const EpubEditor_1 = require("src/app/EpubEditor");
 const perf_hooks_1 = require("perf_hooks");
-const workDir = 'C:\\Temp\\';
+const workDir = 'C:\\safe\\g\\';
 async function main() {
     const files = fs_1.default.readdirSync(workDir);
     for (const file of files) {
@@ -27,13 +27,19 @@ async function main() {
 }
 async function editFile(dest) {
     const epub = new EpubEditor_1.EpubEditor(dest);
+    const t2 = perf_hooks_1.performance.now();
     await epub.parse();
+    console.log(`${perfDiff(t2)} ms | epub.parse()`);
+    const t3 = perf_hooks_1.performance.now();
     let count = 0;
     for (const noteLink of epub.noteLinks.values()) {
         epub.insertFootNote(noteLink);
         count++;
     }
+    console.log(`${perfDiff(t3)} ms | epub.insertFootNote all`);
+    const t4 = perf_hooks_1.performance.now();
     await epub.save();
+    console.log(`${perfDiff(t4)} ms | epub.save()`);
     return count;
 }
 function perfDiff(start) {
