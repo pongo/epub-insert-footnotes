@@ -4,10 +4,35 @@ Do you like reading epub files with lots of footnotes? The book reader does not 
 
 Never again! With epub-insert-footnotes, you will forget about it. It will insert footnotes directly into the page.
 
-> <img width="480" alt="Терри Пратчетт - Стража! Стража!" title="Терри Пратчетт - Стража! Стража!" src="https://user-images.githubusercontent.com/142528/77076721-40a29900-6a05-11ea-9728-006a2b8bcfa2.png" />
+> <img width="638" alt="Терри Пратчетт - Стража! Стража!" title="Терри Пратчетт - Стража! Стража!" src="https://github.com/user-attachments/assets/8866a685-0c9b-4045-a0d1-12ccc51f8c16" />
 
-## How to run
+## Getting Started
 
-Just run `npm start`
+### Prerequisites
 
-Oops! By default it reads all epub-files in `C:\Temp` directory, so, u need edit `main.ts` file, change `workDir` variable and compile file. Sorry.
+* **Node.js**: version `22.18.0` or higher.
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/pongo/epub-insert-footnotes
+cd epub-insert-footnotes
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+## How to Run
+
+To process a file, run:
+
+```bash
+node src/main.ts path/to/your/book.epub
+```
+
+### Output
+
+The tool will create a new file named **`path/to/your/book.footnotes.epub`**
