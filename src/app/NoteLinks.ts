@@ -1,8 +1,8 @@
 import { NoteLink } from '#src/app/NoteLink.js';
 import { Chapters } from '#src/app/Chapters.js';
-import $ from 'cheerio';
+import { type Cheerio } from 'cheerio';
+import { type Element } from 'domhandler';
 import escapeStringRegexp from 'escape-string-regexp';
-import escape from 'escape-html';
 
 export class NoteLinks {
   private readonly noteLinksStore: Map<string, NoteLink> = new Map();
@@ -38,7 +38,7 @@ export class NoteLinks {
 
     for (const chapter of this.chapters.values()) {
       chapter.$('a').each((_i, a) => {
-        const $a = $(a);
+        const $a = chapter.$(a);
         const href = $a.attr('href');
         if (href == null || href === '') return;
         if (!NoteLink.isNoteLink($a)) return;
@@ -49,11 +49,11 @@ export class NoteLinks {
     }
   }
 
-  private getNoteText(href: string, $note: Cheerio) {
+  private getNoteText(href: string, $note: Cheerio<Element>) {
     const origText = $note.text().trim();
     const noteLink = this.noteLinksStore.get(href);
     if (noteLink == null) return origText;
-    return escape(removeReturns(removeNoteNumber(noteLink)));
+    return removeReturns(removeNoteNumber(noteLink));
 
     function removeNoteNumber(noteLink_: NoteLink) {
       if (noteLink_.number === undefined) return origText;
@@ -69,7 +69,7 @@ export class NoteLinks {
     }
   }
 
-  private findNoteEl(href: string): Cheerio | undefined {
+  private findNoteEl(href: string): Cheerio<Element> | undefined {
     const [file, id] = correctHref().split('#');
 
     // файл сноски не найден
@@ -77,7 +77,7 @@ export class NoteLinks {
     if (chapter == null) return undefined;
 
     // сноска не найдена
-    const $note = chapter.$(`#${id}`);
+    const $note = chapter.$<Element, '#'>(`#${id}`);
     if ($note.length === 0) return undefined;
 
     // защита от бэклинков

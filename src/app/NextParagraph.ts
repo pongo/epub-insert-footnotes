@@ -1,4 +1,6 @@
 import { NoteLink } from '#src/app/NoteLink.js';
+import { type Cheerio } from 'cheerio';
+import { type Element } from 'domhandler';
 
 type InsertMode = 'append' | 'after' | 'before';
 
@@ -21,11 +23,11 @@ class NextParagraph {
     else $p.after(code);
   }
 
-  private selectNextParagraph(): Cheerio {
+  private selectNextParagraph() {
     return this.checkNextAsides(this.findP());
   }
 
-  private checkNextAsides($p: Cheerio): Cheerio {
+  private checkNextAsides($p: Cheerio<Element>) {
     // .nextAll собирает все элементы, а затем делает фильтр по селектору. это медленно.
     // для ускорения мы сперва делаем .next — и если там что-то есть, то уже делаем полный .nextAll
     if ($p.next('.zz07-footnote').length > 0) {

@@ -62,7 +62,7 @@ describe('EpubEditor', () => {
 
   describe('For all epub test files', () => {
     describe.each([[1], [2], [3], [4], [5], [6]])(`/(%p)/`, (testFileNum) => {
-      it('should insert notes without errors', async () => {
+      it(`should insert notes without errors for ${testFileNum}.epub`, async () => {
         const epub = new EpubEditor(`${__dirname}/data/${testFileNum}.epub`);
         await epub.parse();
         for (const noteLink of epub.noteLinks.values()) {

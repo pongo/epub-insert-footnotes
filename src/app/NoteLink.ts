@@ -1,5 +1,7 @@
 import { assert } from '#src/shared/utils/assert.js';
 import type { ChapterFileName, ChapterFilePath } from '#src/app/types.js';
+import { type Cheerio } from 'cheerio';
+import { type Element } from 'domhandler';
 
 const reNoteTitle = /^\s*[{[(]*\s*(\d+|\*)\s*[}\])]*\s*$/i;
 
@@ -9,10 +11,10 @@ export class NoteLink {
   readonly text: string;
   readonly number?: number;
 
-  readonly $a: Cheerio;
+  readonly $a: Cheerio<Element>;
   readonly noteLinkFile: ChapterFilePath;
 
-  constructor($a: Cheerio, noteLinkFile: ChapterFilePath, noteLinkFileName: ChapterFileName) {
+  constructor($a: Cheerio<Element>, noteLinkFile: ChapterFilePath, noteLinkFileName: ChapterFileName) {
     this.$a = $a;
     this.noteLinkFile = noteLinkFile;
     assert(NoteLink.isNoteLink($a));
@@ -27,7 +29,7 @@ export class NoteLink {
     this.number = parseNoteNumber(this.text);
   }
 
-  static isNoteLink($a: Cheerio) {
+  static isNoteLink($a: Cheerio<Element>) {
     if (!isLooksLikeNote($a.text())) return false;
 
     const href = $a.attr('href') ?? '';

@@ -1,6 +1,6 @@
 {
   "name": "epub-insert-footnotes",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "type": "module",
   "main": "src/main.ts",
@@ -23,16 +23,14 @@
   "license": "MIT",
   "dependencies": {
     "adm-zip": "^0.5.16",
-    "cheerio": "^0.22.0",
-    "escape-html": "^1.0.3",
+    "cheerio": "^1.2.0",
     "escape-string-regexp": "^2.0.0"
   },
   "devDependencies": {
     "@types/adm-zip": "^0.5.7",
-    "@types/cheerio": "^0.22.16",
-    "@types/escape-html": "^1.0.4",
     "@types/node": "^25.2.3",
     "@vitest/coverage-v8": "^4.0.18",
+    "domhandler": "^5.0.3",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3",
     "vitest": "^4.0.18"
