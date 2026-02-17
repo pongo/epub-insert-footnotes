@@ -1,10 +1,10 @@
 import type { ChapterFileName, ChapterFilePath } from '#src/app/types.js';
 import path from 'path';
-import $ from 'cheerio';
+import { load, type CheerioAPI } from 'cheerio';
 
 export class Chapter {
   readonly fileName: ChapterFileName;
-  readonly $: CheerioStatic;
+  readonly $: CheerioAPI;
   readonly closeBr: boolean;
 
   readonly filePath: ChapterFilePath;
@@ -12,7 +12,9 @@ export class Chapter {
   constructor(filePath: ChapterFilePath, content: string) {
     this.filePath = filePath;
     this.fileName = path.basename(filePath) as ChapterFileName;
-    this.$ = $.load(content, { decodeEntities: false, recognizeSelfClosing: true, xmlMode: true });
+    this.$ = load(content, {
+      xml: { decodeEntities: false, recognizeSelfClosing: true, xmlMode: true },
+    });
     this.closeBr = includesClosedBrs(content);
   }
 

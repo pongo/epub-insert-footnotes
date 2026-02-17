@@ -1,7 +1,14 @@
 import { describe, it, expect } from 'vitest';
-import $ from 'cheerio';
+import * as cheerio from 'cheerio';
 import { isLooksLikeNote, NoteLink, parseNoteNumber } from '#src/app/NoteLink.js';
 import type { ChapterFileName, ChapterFilePath } from '#src/app/types.js';
+
+const $ = (html: string) =>
+  cheerio
+    .load(html, { xml: { decodeEntities: false, recognizeSelfClosing: true, xmlMode: true } }, false)
+    .root()
+    .children()
+    .first();
 
 describe('NoteLink', () => {
   it('isNoteLink() should check is <a> tag is a note link', () => {
