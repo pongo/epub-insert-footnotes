@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 1`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 1`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -19,7 +19,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 2`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 2`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -37,7 +37,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 3`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 3`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -79,7 +79,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 4`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 4`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -111,7 +111,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 5`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 5`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -138,7 +138,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 6`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 6`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -155,7 +155,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 7`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 7`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -177,7 +177,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 8`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 8`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -202,7 +202,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 9`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 9`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -220,7 +220,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 10`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 10`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -241,7 +241,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 11`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 11`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -264,7 +264,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 12`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 12`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -290,7 +290,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 13`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 13`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -316,7 +316,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 14`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 14`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -333,7 +333,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 15`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 15`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -352,7 +352,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 16`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 16`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -391,7 +391,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 17`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 17`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -409,7 +409,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 18`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 18`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -444,7 +444,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 19`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 19`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -476,7 +476,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 20`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 20`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -521,7 +521,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 21`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 21`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -589,7 +589,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 22`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 22`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -628,7 +628,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 23`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 23`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -650,7 +650,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 24`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 24`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -686,7 +686,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 25`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 25`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -714,7 +714,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 26`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 26`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -753,7 +753,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 27`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 27`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -773,7 +773,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 28`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 28`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -811,7 +811,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 29`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 29`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -851,7 +851,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 30`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 30`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -871,7 +871,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 31`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 31`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -924,7 +924,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 32`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 32`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1014,7 +1014,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 33`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 33`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1035,7 +1035,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 34`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 34`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1056,7 +1056,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 35`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 35`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1092,7 +1092,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 36`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 36`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1138,7 +1138,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 37`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 37`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1178,7 +1178,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 38`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 38`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1206,7 +1206,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 39`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 39`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1238,7 +1238,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 40`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 40`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1253,7 +1253,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 41`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 41`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1373,7 +1373,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 42`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 42`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1416,7 +1416,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 43`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 43`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1431,7 +1431,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 44`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 44`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1451,7 +1451,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 45`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 45`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1492,7 +1492,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 46`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 46`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1520,7 +1520,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 47`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 47`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1543,7 +1543,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 48`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 48`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1572,7 +1572,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 49`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 49`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1611,7 +1611,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 50`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 50`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1644,7 +1644,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 51`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 51`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1669,7 +1669,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 52`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 52`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1725,7 +1725,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 53`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 53`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1766,7 +1766,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 54`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 54`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1795,7 +1795,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 55`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 55`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1813,7 +1813,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 56`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 56`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2745,7 +2745,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 57`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 57`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3455,7 +3455,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 58`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 1.epub 58`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3472,7 +3472,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 59`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 2.epub 1`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3490,7 +3490,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 60`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 2.epub 2`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3510,7 +3510,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 61`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 2.epub 3`] = `
 "<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3527,7 +3527,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 62`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 1`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -3547,7 +3547,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 63`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 2`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -3575,7 +3575,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 64`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 3`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -3595,7 +3595,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 65`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 4`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -3615,7 +3615,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 66`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 5`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -3635,7 +3635,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 67`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 6`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -3673,7 +3673,7 @@ body
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 68`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 7`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -3702,7 +3702,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 69`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 8`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -3980,7 +3980,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 70`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 9`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -4219,7 +4219,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 71`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 10`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -4387,7 +4387,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 72`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 11`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -4561,7 +4561,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 73`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 12`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -4959,7 +4959,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 74`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 13`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -5281,7 +5281,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 75`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 14`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -5547,7 +5547,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 76`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 15`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -5763,7 +5763,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 77`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 16`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -6001,7 +6001,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 78`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 17`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -6791,7 +6791,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 79`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 18`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -7085,7 +7085,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 80`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 19`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -7327,7 +7327,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 81`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 20`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -7537,7 +7537,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 82`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 21`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -7557,7 +7557,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 83`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 22`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -7667,7 +7667,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 84`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 23`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -8373,7 +8373,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 85`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 24`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -8595,7 +8595,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 86`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 25`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -8887,7 +8887,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 87`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 26`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -8905,7 +8905,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 88`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 27`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -8925,7 +8925,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 89`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 28`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -8945,7 +8945,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 90`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 29`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -8983,7 +8983,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 91`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 30`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -9006,7 +9006,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 92`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 31`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -9031,7 +9031,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 93`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 32`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -9357,7 +9357,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 94`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 33`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -9417,7 +9417,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 95`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 34`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -9451,7 +9451,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 96`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 35`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -9481,7 +9481,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 97`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 3.epub 36`] = `
 "<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -9505,7 +9505,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 98`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 1`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><h1 id="mh_toc_51" class="body_head">ааааа<br></br>
 ааааа<br></br>
@@ -9528,7 +9528,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 99`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 2`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h1 id="mh_toc_116">ааааааа<br></br>
 аааааа: аааа  ааа
@@ -9587,7 +9587,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 100`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 3`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_532">ааа  ааааа
 </h3><p class="b">ааааааа, аааааааа APP – ааааааа ааааааааааааааааааааа ааааааа ааааааааааааа – аааааааа, аааа, ааааа, аааааааааааа ааааааааааа-ааааа. аа APP ааааааааааааааааааааа-1 («<i>netr</i>» аааааааааа «ааа»), а аааааааа, а. . аа sAPPα  αCTF, ааа, ааа аааааа, ааааааааааааааа, ааааааааааааа  аааааа  ааааааааа аааа (2).</p>
@@ -9674,7 +9674,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 101`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 4`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_628">аааааааа ааааааааа
 </h3><blockquote class="epigraph"><div><p class="b_n">«аааааааааааа, аааааааа».</p>
@@ -9699,7 +9699,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 102`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 5`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h2 id="mh_toc_651">ааааааа<br></br>
 а  ааааааааа
@@ -9780,7 +9780,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 103`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 6`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h1 id="mh_toc_763">аааааа<br></br>
 ааааааа  ааааааааааааааааа
@@ -9817,7 +9817,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 104`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 7`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_823">аааа
 </h3><p class="b">аааааааааа – аааааааааааааааааааааа<a href="contentnotes0.html#n_17" id="back_n_17"><sup>[17]</sup></a>. аааа, а  аааааааа? ааааааааааааааааааааааааа  аааааааа.  ааааааааааа – аааааа, ааааааааааа (аааа) ааааа  аааа – аааааааааааааа  ааа. аааа аааааааааааа аааааааааа  аааааааааааааа.</p><div class="zz07-footnote" style="text-indent: 0; border-top: 0px solid #ccc; border-bottom: 0px solid #ccc; margin: 0.5em 0; padding: 0.5em; background-color: #EFEBE9; color: #000; display: block;"><strong>[17]</strong>. аааааа-аааааааааа, аааааа  аааааааа.</div>
@@ -9848,7 +9848,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 105`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 8`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_884">аааааа, ааааааааааааа  аааааа
 </h3><p class="b">ааааааааааааааааааааааааааааааа  аааааа. аа ааааа, ааа, ааааа «аааа» а «аа», ааааааааааааааа  аааааа. аааааааааа, аааааа ааааааааа, аааааааааааааааа, аааааааа  аааааааа  аа,  а. ааааааааааааааа ааааааааа  ааа: ааааааааааа – ааааааааааа – ааааааа  ааа, ааааааааааааааааааааааааааа  ааа ааааааа-аааааааааа, ааа, аааааа  аааааа. ааааааааааа  ааааааааааа аааа. ааааааа, аааааааааааааааааааааааа   аа, аааааааааааааааааа.</p>
@@ -9895,7 +9895,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 106`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 9`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_965">аааааааааа.  ааа аааааа
 </h3><h5 class="subtitle"><b>аааааа  аааааа – ааааа/аа</b></h5><p class="b">ааааа  аааааааааааааааа ааа. аааааааа  аааааааааааа, ааа ааааааааааааа  аааааааааа, ааааа, аааааааааааааааааааааааа ааааааааа  ааа. аааааааааааааааааааааааа. аааа: ааааа, ааааа аа, аа аааааааааа   аааааааа, ааааааааааааааааааааааааа (аааааа аааааааааааааааааааааааааааа). ааааааааааа, аааааааааааааааа ааааааааа, ааа  ааааааааааааааа. ааа, аа, ааааааааааааа (аа 3) аааааа, ааааааааааааааааааааа – ааааааа, аааааа аааааааааааааааааааа ааааааааа, ааааааааа ааааааа, ааааааааааа. ааааа ааа, аааааааааа, ааааааааааа (3).</p>
@@ -9926,7 +9926,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 107`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 10`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1013">ааааааа: аа  ааа аа
 </h3><p class="b">ааа аа – аааааааааааааааааа, а аааааааааа, ааа аааааааааа. ааа  ааааа, аааа (а)  аа (аааа) – а ааааа. аа – аа  аааааа а аааааа. ааа, ааааааааааааааааааааааааа  аааааааааа.</p>
@@ -9948,7 +9948,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 108`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 11`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1039">ааааа 
 </h3><p class="b">ааааа  – ааааааааааа  ааааааааа, аааааааааааааааа. ааааааа  аааааааааааааааааааа (аааааа, аааа  аааааа), ааааааааааа ааааааааааааааа  ааа  ааааа, аааааааааааа. аааааааааааааааа, а ааа  ааааааа, аааааа ааааааааааааааааааааааа (аа  аааааа) ааааааа (11). ааааааа ааааа  ааааааа ааааа , ааааааааааааа, аааааааааа-аааа.<br></br><br></br></p>
@@ -9971,7 +9971,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 109`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 12`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1072">ааааааааааааааааа<br></br>
 (ааааааа  аа)
@@ -9993,7 +9993,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 110`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 13`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h2 id="mh_toc_188">аааааааа<br></br>
 ааааааа
@@ -10037,7 +10037,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 111`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 14`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1107">ааааааааа
 </h3><p class="b">аааааааааааааааааа ааааа, ааа аааа аааа, аааааа, ааааааааа (ааааа, аааааааааа) ааааааааааа аааааааааа. Cyrex Array 5 – ааааааааааааа.</p>
@@ -10056,7 +10056,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 112`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 15`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1129">ааааааааааааа
 </h3><p class="b">аааааааааааааааа «ааааа» ааааа, ааааа ааааааааааааа. аааааааа, ааааааа ааааааааааа  ааааааааааа, ааааааа, ааааааааааааааааа аааа. ааа <i>mitochondria</i> аааа ааааа «ааа, ааааааа». аааааа, а «ааааа» ааааааааааааааа, аааааааааааааааааааа. ааааааааааааааааааааааааааа.</p>
@@ -10078,7 +10078,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 113`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 16`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1162">ааааааааааааааааааа
 </h3><p class="b">ааааа, ааааааааааааааааааа  ааааааааа, аааааааааа, аааааааа  а. ааааа ааааааааа. аааааа – ааааааааа аааааааааааааааа (MoCA), ааааааааааааааааааааааа  аааааааааааа (<a href="http://dementia.ie/images/uploads/site-images/MoCA-Test-English_7_1.pdf">http://dementia.ie/images/uploads/site-images/MoCA-Test-English_7_1.pdf</a>). ааааааааааа аааааааа, ааааааааааааааааааааааа. ааааааааа 26-30 аааа; 19-25 ааааааааааа ааа; 19-22 ааааааааааааа ааааааааааааааааа  ааааа ааа, , ааааа а, ааааа ааааааа ааа, ааа 19 аааааааааааа.</p>
@@ -10099,7 +10099,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 114`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 17`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1193">аааааааааааааааааа
 </h3><h5 class="subtitle"><b>1. ааааааа</b></h5><p class="b">ааааааа – аааааааааа  аааааааааа – аааааааа аааааааааааа, ааааааааааааааааааа, аааа  ааааа  аааааа. ааааааааааааааа: аааааааааааааа  ааааааааа аааааааа. аааааа? аааааааааааааааа  аааааа? аааааааа, а ааааа  аааааааа, ааааа аааааааааааа? ааааааааааа. аааа? ааааааааааа, ааа?</p>
@@ -10118,7 +10118,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 115`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 18`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1221">ааааа
 </h3><h5 class="subtitle"><b>ааааааа</b></h5><p class="b">аааааааааааааааааа  ааааааа, аааааааааааааааа. ааааааааааа ааааа, аааааааааааа, ааааааааааа.</p>
@@ -10156,7 +10156,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 116`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 19`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h2 id="mh_toc_1270">аааааааа<br></br>
 ааааа ReCODE: ааааааааааааааа
@@ -10184,7 +10184,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 117`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 20`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1310">аааа
 </h3><p class="b">ааааааааа 6 аааа/а, ааа  аа ааааааа<sub>6</sub>, а<sub>12</sub>  ааааа. а ааааааааааааааааа 20 а<sub>6</sub>, 0,5 а<sub>12</sub>  0,8 ааааа, аааааа ааааааааааааааааа. ааааа аа  аааааа аааааааааааааа аааааааа, ааааааааааа аааааааааааааааааа. аааааа, ааааааааа 6 ааааааааааааааа-5-ааа (а-5-, аааааааааааааа<sub>6</sub>) а 20–50 а аааа; ааааааааа (ааа-а<sub>12</sub>)  аааааааааа (аааааааааааааа<sub>12</sub>) а  ааааа 1 а аааа; аааааааааааа (аааааа, ааааааааааааа), ааааа 0,8 а (а 5 а) аааа.</p>
@@ -10257,7 +10257,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 118`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 21`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1432">аааааааааааааааааа
 </h3><p class="b">ааааааа? аааа  ааааааааааа! ааааааа: аааааа, ааааа, аааааа, ааа, аааааа, ааааа, аааааааааа ааа аааа. аааааааа аааа аааа! ааааааааааааа, ааааааа ааааа (аааааааа-аааааа), а  аааааааа. ааааааааааа, а:</p>
@@ -10302,7 +10302,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 119`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 22`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1485">ааааааааааа
 </h3><p class="b">ааааааааааааааааааааааааааа. а, ааа аааа, аааа, аааааааааааа  ааа, – ааааа, аааааааааааааааааа, ааааааааааа, аааа, ааааа, ааааааааааа – а ааааааа, ааааааа  а. ааааааааа, аааааааааа ааааааааааа, а ааааааа.</p>
@@ -10327,7 +10327,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 120`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 23`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1516">аааа
 </h3><p class="b">ааааааааааааа. аааааа аа  ааа, аааа ааа ааааааа.<br></br><br></br></p>
@@ -10361,7 +10361,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 121`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 24`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h2 id="mh_toc_246">ааааааа<br></br>
 аааааааа, ааааааааа аааааа?
@@ -10404,7 +10404,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 122`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 25`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1571">аааааааааа
 </h3><p class="b">аа  ааааааааааа ReCODE аааааааааааааааааааааа. ааааа аааааа аааааааа. а-ааа, ааааа ааааааааааааааааааааааааааа (а) аааааааааааааааааа. ааааааааааааааа ааааа, аааааа  ааааааа аааааааааааа, аааааааа, аааааааа, аааааааааааа, ааа, ааа, ааа аааа аааааа. аааа аааааааааааааааа аааааа аааааааааааааааааа, аа, ааааааааааа аааааа ааааааааа. ааааа, ааа «аааа» ааа, ааааа ааааааааааааааа ааааааааааааа, ааааааааааааа, а. . ааааааааааааааааа  ааааааааааааа. ааааааа – а 17-ааааааа, аааа  аааа. аааааааа – а, аааааа, а, аааааааааа ааааа  ааааааааааааааааааа.</p>
@@ -10435,7 +10435,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 123`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 26`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_1610">ааааааааа
 </h3><p class="b">аааааааааааа, ааааа (аааааа, аааа), аа, ааа, ааааааа D  ааа-аааааа аааааааааааааа. ааа 4 ааааааааааааааааааа, аааааааааа, аааааааа, ааааааааааааааааааааааааааа  ааааааааааа. ааааааааааааааа, ааааааааааааа ааааааааааа, аааааааааа аааааа APP (ааааааааааа-ааааа). аааа, а APP аааааааааа, ааааа, аа  аа.</p>
@@ -10487,7 +10487,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 124`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 27`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h2 id="mh_toc_1672">ааааааааа<br></br>
 ааа  ааааа: аааааааааааааааааааа
@@ -10558,7 +10558,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 125`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 28`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h1 id="mh_toc_1754">аааааааа<br></br>
 аааааааааа
@@ -10618,7 +10618,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 126`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 29`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h2 id="mh_toc_1864">аааааааааааа<br></br>
 ааа ааа, аааа. аааа  ааа
@@ -10680,7 +10680,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 127`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 30`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h2 id="mh_toc_1953">аааааааааааа<br></br>
 аааааааааааа: аааааааааааааа ааааа
@@ -10756,7 +10756,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 128`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 31`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h1 id="mh_toc_2059">ааааа
 </h1><h2 id="mh_toc_2062">аааа<br></br>
@@ -10825,7 +10825,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 129`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 32`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h1 id="mh_toc_2164">аааааааа
 </h1><p class="b">аа аааааааааааааааааааааааа, ааааааааааа ааааааааааааааааа? аааа. ааааааааааааааааа, аа аа аа. аааааааааааа  ааааа аааа  аааа  а, а аааааааа-ааааааааааа, аааааааааааааааааааа-аа, аааааааааааа  ааааа, ааааа, ааааа  ааааа, ааааааааааааа, ааааа, ааааа, аааа  ааааааа, аааа, аааааааа, ааааааааа  ааааааааа, аааааа, аааааа  аааа.</p>
@@ -10883,13 +10883,13 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 130`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 33`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><div style="page-break-after: always"/><div style="text-align: center;"><img src="i_032.png" alt=""/></div><div style="page-break-after: always"/></div></body></html>
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 131`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 34`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h2 id="mh_toc_314">ааааааааа<br></br>
 аааааа ааааааа: ааа
@@ -10913,7 +10913,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 132`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 35`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_339">1. аааааааа  аааааааааа
 </h3><p class="b">аааааа – ааааааа аааааааааааа, ааааааа (ааааа), аааааааааа, аааааааааааааааа аааааа.</p>
@@ -10989,7 +10989,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 133`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 36`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_421">2. аааааааа, аааааааа  ааааааааа
 </h3><p class="b">аааааааа  ааааааааааааа, ааааааааааааа, аааа аа  аа, аааааааааааааа. ааа ааааааааааааааа, ааааа аа. аа ааааааа, ааааааааааааа  ааааа.</p>
@@ -11022,7 +11022,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 134`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 37`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_466">аааааа. аааа, ааааа ааааааа
 </h3><p class="b">ааа 1989 аа аааааааааааааааа, ааааааааааааааааааааааааа аааа, ааа,  ааааааааа аааааааа. аа ааааааа, аааааа ааааа  аааааа ааааааааааа, ааа  аааа  аааааа, аааааааааа аааа  ааааааааа. ааа, аааааааааааа аааааа? аааааа ааа. аааа, ааааааааааааааааа, аааааааааааа, аааааааааааа  аааааа, аааааааааа аааааа  аааааааааа, ааа аааааааа ааааа. аааааааааааааааааааааааа аааааааа, а. . ааааааааааа аааа  аааааа, ааа ааааааа  аааа  ааа. ааааааааа ааааааааа in vitro<a href="contentnotes0.html#n_10" id="back_n_10"><sup>[10]</sup></a>, аааааааааа. ааа, ааа ааааааааа аааааааа ааааа  аа, а аа аааааааааааа  ааааааааа, а  ааа аааа аааа аааааа. ааа, аааааааааааа-аааааааа аааааааааа, аааааа  ааааааааа , ааааааааа, аааааааааааааааааааааа. ааааааааа, а 1990- ааа аааааааааааааа ааааа in vitro аааааааа. аааааа, аааа, ааааа аааа аааааааа аа, аааааааа аааааа, аааааааа ааааа, ааааааааааааааааааа. аааа, ааааааааа,  а, а ааааааааааааааа, аааа ааааааааааааааааааааааа ааааааааааааааа.<span class="zz07-footnote" style="text-indent: 0; border-top: 0px solid #ccc; border-bottom: 0px solid #ccc; margin: 0.5em 0; padding: 0.5em; background-color: #EFEBE9; color: #000; display: block;"><strong>[10]</strong>. In vitro ааа «аааа». аааааааааа, аааааааааа  ааааааааааааааааааа, а. . а аааа аааа. аааааааааааааааааа in vivo, аааааааааааааааааааа, аааааааааааааааа.</span><br></br><br></br></p>
@@ -11036,7 +11036,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 135`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 38`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_480">аааа!
 </h3><p class="b">аааа  ааааааааааааааааа. ааааа, аааа  100 аааааааааа  ааааааа 10 000 аааа, а. . аа ааааааааа – 1 000 000 000 000 000 – аааа, ааа ааааааа-аааааа, аааааа. ааа, аааааа, аааааааа, ааа, ааааааааааааааа, ааааааааааааа, аааааааааа, аааааааа, аааааааа, а  ааа – аааааааа ааааа, аааааааааааа. ааа, ааа-аааааааааа, – аааааааааааааа, ааааа, аа «ааааааа»  ааа, ааааа N аааа – аааааааааааааа ааааа ааааа ааааа,  ааа аа, ааа аааааа  ааааааа, а. . аааааааааа, аааааа а.</p>
@@ -11053,7 +11053,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 136`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 39`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h3 id="mh_toc_499">ааааааааааааа
 </h3><p class="b">ааааааааааааааааааа, а аааа, ааааааааааа, аааааааа  аа, аааааааа  аааа. ааа, ааа аааааааааааааааааа, ааааааааааааа  аааааа-ааааа (Aβ). ( аа ааааааааааа ааа 1).<br></br><br></br></p>
@@ -11076,7 +11076,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 137`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 40`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>ааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><h1 class="master">аааа
 </h1><h1 id="idm140471625155024" class="master">1
@@ -11106,13 +11106,13 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 138`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 4.epub 41`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><title>Cover of ааааа</title><meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/><style type="text/css">body {padding:0;} img {height: 100%; max-width: 100%;} div {text-align: center; page-break-after: always;}</style></head><body><div><img alt="cover" src="cover.jpg"/></div></body></html>
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 139`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 5.epub 1`] = `
 "<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -11136,7 +11136,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 </html>"
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 140`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 5.epub 2`] = `
 "<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -11452,7 +11452,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 </html>"
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 141`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 5.epub 3`] = `
 "<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -12394,7 +12394,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 </html>"
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 142`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 5.epub 4`] = `
 "<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -13065,7 +13065,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 </html>"
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 143`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 5.epub 5`] = `
 "<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -13094,7 +13094,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 </html>"
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 144`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 5.epub 6`] = `
 "<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -13116,7 +13116,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 </html>"
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 145`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 5.epub 7`] = `
 "<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -13136,7 +13136,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 </html>"
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 146`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 5.epub 8`] = `
 "<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -13224,7 +13224,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 </html>"
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 147`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 5.epub 9`] = `
 "<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -14225,7 +14225,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 148`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 5.epub 10`] = `
 "<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -14256,7 +14256,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 </html>"
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 149`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 5.epub 11`] = `
 "<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -14281,7 +14281,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 </html>"
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 150`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 5.epub 12`] = `
 "<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -14306,7 +14306,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 </html>"
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 151`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 5.epub 13`] = `
 "<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -14332,7 +14332,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 </html>"
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 152`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 6.epub 1`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>аааааа. ааааааа. 2331 аааа  ааааа  ааа ааааааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><div style="text-align: justify" class="section1"><h2 id="mh_toc_140">1889 а<br></br>
 (№ ааааа: 1)
@@ -14400,7 +14400,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 153`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 6.epub 2`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><meta http-equiv="content-type" content="text/xhtml; charset=UTF-8"/><title>аааааа. ааааааа. 2331 аааа  ааааа  ааа ааааааааа</title><link rel="stylesheet" type="text/css" href="style.css"/><link rel="stylesheet" type="text/css" href="unicode_fonts.css"/></head><body><h1 class="master">аааааа
 </h1><h1 id="idm140485009796688" class="master">1
@@ -14562,7 +14562,7 @@ exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes wit
 "
 `;
 
-exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors 154`] = `
+exports[`EpubEditor > For all epub test files > /(%p)/ > should insert notes without errors for 6.epub 3`] = `
 "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fb="http://www.gribuser.ru/xml/fictionbook/2.0"><head><title>Cover of аааааа. ааааааа. 2331 аааа  ааааа  ааа ааааааааа</title><meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/><style type="text/css">body {padding:0;} img {height: 100%; max-width: 100%;} div {text-align: center; page-break-after: always;}</style></head><body><div><img alt="cover" src="cover.jpg"/></div></body></html>
 "
